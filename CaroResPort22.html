@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CaroBytes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<!-- Styling -->
+<style>
+    * {
+        border: 1px solid red;
+    }
+
+    body {
+        background-image: url('Assets/Background.png');
+    }
+
+    .naButton {
+        background-image: url('Assets/Label01.png');
+        width: 160px;
+        background-size: 160px 45px;
+        background-repeat: no-repeat;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    .navLink {
+        display: flex;
+        top: 50%;
+        justify-content: center;
+        transform: translateY(82%);
+        align-items: center;
+    }
+
+    #introSect {
+        background-image: url('Assets/Frame01.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+</style>
+
+<body>
+    <!-- NabvBAr -->
+    <nav class="navbar" style="padding: 0; min-height: 106px;">
+        <div class="container" style="height: 50px;">
+            <code class="naButton">
+                <a class="navLink nav-link" href="#CaroWho">Caro Who?</a>
+            </code>
+            <code class="naButton">
+                <a class="navLink nav-link" href="#Education">Education</a>
+            </code>
+            <code class="naButton">
+                <a class="navLink nav-link" href="#Skills">Skills</a>
+            </code>
+            <code class="naButton">
+                <a class="navLink nav-link" href="#Projects">Projects</a>
+            </code>
+            <code class="naButton">
+                <a class="navLink nav-link" href="#LetsConnect">Let's Connect!</a>
+            </code>
+        </div>
+    </nav>
+    <!-- container for rest of site -->
+    <div class="container">
+        <!-- Intro Section -->
+        <div id="introSect">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
